@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  /* border: 2px solid white; */
+  background-color: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  padding: 6px 0px;
+  background-color: whitesmoke;
+}
+nav ul li {
+  margin: 0px 20px;
+  list-style: none;
+}
+
+nav ul li img {
+  height: 40px;
+}
+#lfw {
+  font-size: 25px;
+  font-weight: 600;
+}
+#txt {
+  height: 25px;
+  width: 300px;
+  padding: 0px 10px;
+  margin-left: 200px;
+}
+#btn {
+  height: 29px;
+  width: 90px;
+  color: white;
+  background: #5e5e5e;
+  border: none;
+}
+#system {
+  background-image: url(2.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  opacity: 0.947;
+  display: flex;
+  align-items: center;
+}
+#sun {
+  height: 400px;
+  width: 400px;
+  background-image: url(3.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-size: cover;
+  left: -199px;
+  position: relative;
+}
+#mercury {
+  /* border: 2px solid red; */
+  height: 100px;
+  width: 100px;
+  background-image: url(4.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  left: -115px;
+}
+#venus{
+  height: 100px;
+  width: 100px;
+  background-image: url(5.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  left: -80px;
+}
+#earth{
+  height: 100px;
+  width: 100px;
+  background-image: url(6.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  left: -60px;
+}
+#mars{
+  height: 100px;
+  width: 100px;
+  background-image: url(7.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  left: -40px;
+}
+#jupiter{
+  height: 100px;
+  width: 100px;
+  background-image: url(8.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  left: -20px;
+}
+#saturn{
+  height: 100px;
+  width: 220px;
+  background-image: url(9.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: contain;
+  left: -10px;
+
+}
+#saturn p{
+padding-left: 50px;
+
+}
+#uranus{
+  height: 100px;
+  width: 100px;
+  background-image: url(10.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  left: 10px;
+
+}
+#neptune{
+  height: 100px;
+  width: 100px;
+  background-image: url(11.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  left: 30px;
+
+}
+.planets{
+  color: white;
+  position: relative;
+  font-size: 30px;
+  top: 146px;
+  left: 45px;
+}
